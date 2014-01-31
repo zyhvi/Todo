@@ -11,3 +11,6 @@
 Nginx+Tornado+MySQL
 
 相关知识：JQuery，HTML/css
+
+数据库文件todo.sql,导入 mysql>source /git所在的文件夹/todo.sql;
+                   运行 python todo.py
