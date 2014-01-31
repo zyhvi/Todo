@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.1.67, for redhat-linux-gnu (i386)
+-- MySQL dump 10.13  Distrib 5.5.35, for debian-linux-gnu (i686)
 --
 -- Host: localhost    Database: todo
 -- ------------------------------------------------------
--- Server version	5.1.67
+-- Server version	5.5.35-0ubuntu0.12.04.1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -28,7 +28,7 @@ CREATE TABLE `todo` (
   `finished` int(11) DEFAULT '0',
   `post_date` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `todo` (
 
 LOCK TABLES `todo` WRITE;
 /*!40000 ALTER TABLE `todo` DISABLE KEYS */;
-INSERT INTO `todo` VALUES (4,'I like ！',0,'2011-06-03 06:08:10'),(5,'Import this',0,'2011-06-03 06:08:37'),(6,'通往梦想的道路上一直在你脚下',0,'2011-06-03 06:09:18'),(7,'列出你的计划',0,'2011-06-03 06:09:41'),(9,'这是一条测试2',1,'2011-06-04 23:01:31'),(39,'Just a test',1,'2013-03-25 12:13:21'),(42,'写下你的梦想',0,'2013-03-25 12:42:35');
+INSERT INTO `todo` VALUES (5,'Import this',0,'2011-06-03 06:08:37'),(6,'测试',1,'2011-06-03 06:09:18'),(9,'Tornado',0,'2011-06-04 23:01:31'),(39,'success',0,'2013-03-25 12:13:21'),(43,'test',1,'2014-01-31 16:33:32'),(45,'PYTHON',0,'2014-01-31 16:36:11');
 /*!40000 ALTER TABLE `todo` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-03-26  1:43:02
+-- Dump completed on 2014-02-01  3:18:13
