@@ -1,0 +1,40 @@
+<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/reset.css" />
+    <!--
+    <link rel="stylesheet" type="text/css" href="{{static_url("/css/style.css")}}" />
+    <link rel="stylesheet" type="text/css" href="{{static_url("/css/reset.css")}}" />-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="zh-cn" />
+    <script type="text/javascript" src = "/static/js/jquery/jquery.js"></script>
+	<script type="text/javascript" src="/static/js/test.js"></script>
+    <!--<script type="text/javascript">
+    /*var r = Math.random();
+    if (r > 0.5)
+        {location.replace("http://baidu.com");
+        alert("被重定向至baidu");
+    }
+    else
+    	{location.replace("http://google.com");
+        alert("被重定向至GOOGLE"+'\n'+"这是一个换行");
+        	}
+    </script>-->
+{% block header %} 
+{% end %}   
+</head>
+
+<body onload="startTime()">
+    <div class = "header">Todo（Tornado版）</div>
+
+    <div class="box">
+    {% block body %}{% end %}
+    </div>
+
+    <div class = "footer">CopyRight@2013 by <a href="http://zyhvi.com">zyhvi</a> <br />
+        <div id="txt"></div></div>
+</body>
+</html>

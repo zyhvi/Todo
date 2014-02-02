@@ -1,0 +1,29 @@
+body {margin: 0px; background: #EEE;}
+p {line-height: 1.5em;	}
+a {text-decoration: none;}
+.footer a {color: orange;}
+a:hover {color: #FF3300;}
+h2 a:link {color: green;}
+h2 a:visited {color: green}
+h2 a:hover {color: #FF00FF}
+h2 a:active {color: #0000FF}
+
+.header {color: red;  text-align: center; top: 0px;background-color: black;
+        padding-bottom: 1px; margin-bottom: 5px;}
+
+.box {width: 700px; background: #FFF; margin: 30px auto; padding: 10px 20px;
+        border:1px solid #ccc; border-radius: 5px;}
+.listbox { padding-top:10px; }
+.box h2 {text-align: center; padding-bottom: 5px; margin-bottom: 10px; font-weight: 400; color: green; font-size: 28px;}
+.listbox ul {margin-left: 20px;}
+.listbox ul li {margin-bottom: 10px; padding-bottom: 10px;border-bottom: 1px dotted #ccc; }
+.finished { color:#666; }
+
+.postbox {margin-top: 30px; text-align: center;}
+.submit {line-height: normal;-padding:0;}
+.long_txt {width: 80%;}
+
+.footer {color: white; position: fixed;background-color: black; bottom: 0px; text-align: center;width: 1420px;}
+
+
+
